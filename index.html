@@ -6,23 +6,80 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/a9b556d9b6.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Makasar&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Libre+Franklin:wght@300&family=Playfair+Display&display=swap" rel="stylesheet">
     <link href="src/style.css" rel="stylesheet" text="text/css">
     <link href="src/index.js" rel ="stylesheet" type="text/js"/>
     <title>My Project</title>
 </head>
 <body>
     <container>
-        <div class="d-flex bg-warning">
-    <h1>Hello World</h1>
-    <p>Hi There</p>
-    <i class="fa-brands fa-instagram"></i>
-   
-</div>
+    <header>
+        <div class="nav">
+          <div class="nav-left d-flex justify-content-start">
+            <div class="home nav-one">HOME</div>
+            <div class="menu nav-two">MENU</div>
+          </div>
+            <span class="main-heading d-flex justify-content-center"><img src="img/logo.png" class="main-heading-logo"></span>
+            <div class="nav-right d-flex justify-content-end">
+            <div class="catering nav-three">CATERING</div>
+            <div class="contact nav-four">CONTACT</div>
+        </div></div>
+    </header>
+
     
+    <img src="img/box-home-img.jpg" class="home-img">
+
+    <div class="content-one">
+<h2>neighbourhood hangout for good times served with quality brunch & DINNER,
+ locally roasted coffee, hand-picked natural wines,bespoke<br> cocktails & delicious beers.</h2>
+</div>
+
+<div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/espresso-martini.jpg" class="d-block w-100 content-img" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/morgage.jpg" class="d-block w-100 content-img" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/crumble.jpg" class="d-block w-100 content-img" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="reviews-container">
+<div class="review-heading">REVIEWS</div>
+<div class="reviews-left">
+<div class="row">
+<blockquote class="col-6">“One of the best restaurants I’ve ever eaten at, customer service is world class and the food will blow you away with how good it is, not to mention a wide range of variations to please everyone at the table. The servers are amazing and well educated on the menu, honestly if you don’t eat here while visiting Amsterdam you’re missing out.”
+  <div class="author">— ZYAD - GOOGLE</div></blockquote>
+  <blockquote class="col-6">“It’s hard to find great brunch food in the Netherlands. The Hot Chick entree is amazing. Service was speedy even though every table was taken. Will definitely come back!”
+    <div class="author">— CHAD - GOOGLE</div></blockquote>
+</div>
+
+</div>
+  
+  <div class="reviews-right">
+    <div class="row">
+  <blockquote class="col-6 ">“Best Parma this side of the globe. Great and friendly service
+    . You can tell everyone has fun working here.”
+    <div class="author">— SEAN CAMERON - GOOGLE</div></blockquote>
+  <blockquote class="col-6 mt-n1">“I have been to Box Sociaal for brunch multiple times but I recently went and tried their dinner menu for the first time. Everything we tried was amazing. The service was very friendly as well. Highly recommended!!”
+  <div class="author">— GALYA ALGRANATI - GOOGLE</div></blockquote>
+</div>
+</div>
+
+
 </container>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
