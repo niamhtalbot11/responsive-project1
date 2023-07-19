@@ -2,8 +2,9 @@
     display:flex;
 }
 body {
-    height:8000px;
+    height:auto;
     background-color: white;
+    font-family: 'Playfair Display', serif;
     
 }
 .nav {
@@ -57,7 +58,6 @@ body {
 }
 
 h2{
-    font-family: 'Playfair Display', serif;
     font-size: 24px;
     letter-spacing:.02em;
     line-height:2;
@@ -83,7 +83,6 @@ blockquote, .author{
     font-size: 16px;
 }
 .reviews-left, .reviews-right{
-    font-family: 'Playfair Display', serif;
     font-size: 24px;
     letter-spacing: .01em;
     line-height: 1.2em;
@@ -93,5 +92,45 @@ blockquote, .author{
 
 .mt-n1 {
     margin-top: -4rem !important;
-    
   }
+  
+
+  .contact-us-container{
+    letter-spacing: .09em;
+    line-height: 2em;
+    font-size:16px;
+    font-weight: 400;
+    margin-left:100px;
+    margin-top:100px;
+    color:#171717;
+}
+
+  .jordaan-info, .plantage-info{
+    margin-left:60px;
+    margin-top:30px;
+
+  }
+.contact-us-container h2{
+    font-size:30px;
+   
+}
+a {
+    font-size:30px;
+    color:white;
+    text-decoration: underline 1px rgba(255,255,255,.3) ;
+    text-underline-offset: 8px;
+    padding-right:20px;
+    padding-left:20px;
+
+
+}
+.footer{
+    background-color: #171717;
+    margin-top:200px;
+    height:350px;
+    display:block;
+}
+.footer-links{
+    padding-top:130px;
+    
+}
