@@ -15,7 +15,7 @@
 </head>
 <body>
     <container>
-    <header>
+      <header>
         <div class="nav">
           <div class="nav-left d-flex justify-content-start">
             <a href="index.html"><div class="home nav-one">HOME</div></a>
@@ -23,15 +23,57 @@
           </div>
             <span class="main-heading d-flex justify-content-center"><img src="img/logo.png" class="main-heading-logo"></span>
             <div class="nav-right d-flex justify-content-end">
-            <div class="catering nav-three">CATERING</div>
-            <div class="contact nav-four">CONTACT</div>
-        </div>
-    </div>
+            <a href="catering.html"><div class="catering nav-three">CATERING</div></a>
+            <a href="contact.html"><div class="contact nav-four">CONTACT</div></a>
+        </div></div>
     </header>
 <div class="form-container">
-    <h1>BOUTIQUE CATERING:</h1>
+    <h1 style="text-align: left;">BOUTIQUE CATERING:</h1>
     <p class="mt-5">PLEASE COMPLETE THE FORM BELOW</p>
+
+    <span style="font-size:16px;">Name</span>
+    <span class="description-required">(required)</span>
+<form>
+<div class="row g-2">
+    <div class="col">
+    <label for="first-name-form" style="font-size:10px;">First Name</span></label>
+    <input type="text" class="form-control" aria-label="First name" id="first-name-form">
+    </div>
+
+    <div class="col">
+    <label for="last-name-form" style="font-size:10px;">Last Name</span></label>
+    <input type="text" class="form-control" aria-label="Last name" id="last-name-form">
+    </div>
 </div>
+
+    <div class="col-12">
+    <label for="email" class="form-label" style="padding-top:5px; padding-bottom:5px; margin:0">Email<span class="description-required"> (required)</span></label>
+    <input type="text" class="form-control" id="email">
+    </div>
+
+    <div class="col-12">
+    <label for="inputSubject" class="form-label" style="padding-top:5px; padding-bottom:5px; margin:0">Subject<span class="description-required"> (required)</span></label>
+    <input type="text" class="form-control" id="inputSubject">
+    </div>
+
+    <div class="col-12">
+        <label for="cateringRequestInput" class="form-label" style="padding-top:5px; margin:0">Catering Requests (Custom Menu Available)<span class="description-required"> (required)</span></label>
+        <span class="description-required m-0 !important">Number Of People, Date/Time, Budget, Allergens & Menu Type</span>
+        <textarea class="form-control" id="cateringRequestInput" rows="3"></textarea>
+      </div>
+
+<button type="submit" class="button">Submit</button>
+</form>
+</div>
+<div class="footer">
+    <div class="row">
+    <div class="footer-space col-1"></div>
+    <div class="footer-links col-11">
+    <a href="https://www.facebook.com/boxsociaal/" target="_blank">FACEBOOK</a>
+    <a href="https://www.instagram.com/boxsociaal/" target="_blank">INSTAGRAM</a>
+    <a href="https://www.google.com/maps/place/Box+Sociaal/@52.3661856,4.9118301,17z/data=!3m1!4b1!4m6!3m5!1s0x47c609a279db9467:0xbb623012a6d9ac3c!8m2!3d52.3661856!4d4.9118301!16s%2Fg%2F11gf9qk0gr?entry=ttu" target="_blank">WRITE A REVIEW</a>
+  </div></div></div>
+
     </container>
     </body>
     </html>
