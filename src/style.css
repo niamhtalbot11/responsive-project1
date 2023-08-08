@@ -274,14 +274,17 @@ button{
 
     .home-img{
         height:50%;
-}
-.content-one{
+    }
+    .content-one{
     padding-top:0;
-}
+    }
+
+/* reviews container  */
 
 .review-heading{
-    font-size:50px;
-    padding-top:50px;
+    font-size:40px;
+    padding-top:40px;
+    padding-bottom:20px;
 }
 .reviews-left, .reviews-right{
 margin-right:20px;
@@ -293,9 +296,11 @@ blockquote, .author {
     font-size:6px;
     width:100% !important;
 }
+
 .reviews-container row{
 padding-left:60px;
 }
+
 .reviews-container .mt-n1{
     margin-top: 0 !important;
 }
@@ -310,3 +315,33 @@ padding-left:60px;
 #plantage-location, #jordaan-location{
 display:none;
 }}
+
+/* MEDIA QUERIES FOR MENU PAGE */
+
+@media (max-width: 767.98px){
+    .brunch-container, .dinner-menu, .cocktail-menu{
+        width:100%;
+        margin-left:20px;
+        padding-right:20px;
+    }
+    .brunch-container .menu-name, .dinner-menu .menu-name , .cocktail-menu .menu-name{
+        font-size:18px;
+    }
+    .dinner-menu .menu-content, .brunch-container .menu-content , .cocktail-menu .menu-content{
+        font-size:10px;
+    }
+    .brunch-container .col-6, .dinner-container .col-6 ,.cocktail-menu .col-6{
+        width:100%;
+    }
+    .brunch-container .mt-n1, .brunch-container .mt-n3 {
+    margin-top:0 !important;
+    }
+
+    .dinner-menu .mt-n1, .dinner-menu .mt-n2 {
+        margin-top:0 !important;
+    }
+    .cocktail-menu .mt-n1, .cocktail-menu .mt-n2, .cocktail-menu .mt-n3{
+        margin-top:0 !important;
+    }
+
+}
