@@ -53,7 +53,9 @@ body {
     object-fit: cover;
 }
 .content-one {
-    height:auto;
+    width:900px;
+    padding-top:100px;
+    height:280px;
     margin:0 auto;
     text-align: center;
     text-transform:uppercase;
@@ -278,6 +280,10 @@ button{
     }
     .content-one{
     padding-top:40px;
+    margin-right:20px;
+    margin-left:20px;
+    width:350px;
+    font-size:14px;
     }
 
     .content-one h2{
@@ -388,4 +394,6 @@ display:none;
     .contact-us-container .space{
     display:none;
     }
+
+
 }
