@@ -53,9 +53,7 @@ body {
     object-fit: cover;
 }
 .content-one {
-    max-width:1000px;
-    height:280px;
-    padding-top:100px;
+    height:auto;
     margin:0 auto;
     text-align: center;
     text-transform:uppercase;
@@ -269,14 +267,18 @@ button{
         padding-left:5px;
     }
     .nav-four{
-        padding-right:0;
+        padding-right:5px;
     }
 
     .home-img{
         height:50%;
     }
     .content-one{
-    padding-top:0;
+    padding-top:40px;
+    }
+
+    .content-one h2{
+    font-size:20px;
     }
 
 /* reviews container  */
@@ -293,7 +295,7 @@ margin-left:20px;
 }
 blockquote, .author {
     padding-top:0;
-    font-size:6px;
+    font-size:12px;
     width:100% !important;
 }
 
@@ -306,15 +308,26 @@ padding-left:60px;
 }
 
 /* contact-us container */
-.contact-us-container{
+.contact-us-container {
     margin-left:0;
+    padding-top:10px
 }
 .plantage-info .col-4, .jordaan-info .col-4{
     width:100%;
 }
+.plantage-info, .jordaan-info{
+    margin-left:0;  
+}
+.plantage-info .col-4 p, .jordaan-info .col-4 p{
+    margin-left:0;
+}
 #plantage-location, #jordaan-location{
 display:none;
-}}
+}
+.contact-us-container br {
+    display:none;
+}
+}
 
 /* MEDIA QUERIES FOR MENU PAGE */
 
@@ -323,6 +336,9 @@ display:none;
         width:100%;
         margin-left:20px;
         padding-right:20px;
+    } 
+    .dinner-menu hr{
+        width:200px;
     }
     .brunch-container .menu-name, .dinner-menu .menu-name , .cocktail-menu .menu-name{
         font-size:18px;
@@ -343,5 +359,30 @@ display:none;
     .cocktail-menu .mt-n1, .cocktail-menu .mt-n2, .cocktail-menu .mt-n3{
         margin-top:0 !important;
     }
+}
 
+/* CATERING US PAGE */
+
+@media (max-width: 767.98px){
+.form-container{
+    margin-right: 20px;
+    margin-left:20px;
+}}
+
+/* CONTACT US PAGE */
+
+@media (max-width: 767.98px){
+    .contact-us-container{
+        margin-right: 20px;
+        margin-left:20px;
+    }
+    .contact-us-container h4, .contact-us-container p{
+    margin-left:10px;
+    }
+    .contact-us-container .col-3, .contact-us-container .col-8{
+        width:100%;
+    }
+    .contact-us-container .space{
+    display:none;
+    }
 }
