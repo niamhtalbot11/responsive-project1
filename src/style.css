@@ -247,11 +247,19 @@ button{
     padding-right:15px;
 }
 
+.button:hover {
+    background-color: #171717;
+    color:white;
+    border-color:white;
+    transition: all 0.9s ease-in-out;
+}
+
 /* CONTACT PAGE */
 
 #dateInput{
     color:#a9a9a9;
 }
+
 
 
 /* MEDIA QUERIES HOMEPAGE */
